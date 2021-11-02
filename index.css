@@ -1,0 +1,46 @@
+* {
+    flex: content;
+    align-items: center;
+}
+
+.form {
+    background-color: antiquewhite;
+    margin: 50px;
+    padding: 50px;
+}
+
+header{
+    text-align: center;
+    width: auto;
+    margin-bottom: 2px;
+    font-size: 50px;
+}
+
+@media only screen and (max-width:400px) {
+    * {
+        text-align: center;
+    }
+}
+
+.cal{
+    padding: 5px;
+    border: 5px solid grey;
+    margin-left: 25%;
+    background-color: rgb(233, 188, 188);
+    width: 50%;
+
+}
+
+#sum, #sub, #mul, #div,#mod {
+    text-align: center;
+    background-color: rgb(221, 236, 234);
+    padding: 25px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: auto;
+    margin-top: 20px;
+}
